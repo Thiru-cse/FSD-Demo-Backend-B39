@@ -86,6 +86,7 @@ export const updateOrderStatus = async (req, res) => {
       { new: true },
     );
 
+
     if (!updatedOrder)
       return res.status(404).json({ message: "Order Not Found" });
 

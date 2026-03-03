@@ -6,14 +6,15 @@ import productRoutes from "./Routers/productRoutes.js";
 import cartRoutes from "./Routers/cartRoutes.js";
 import orderRoutes from "./Routers/orderRoutes.js";
 import paymentRoutes from "./Routers/paymentRoutes.js";
+import cors from 'cors';
 
 dotenv.config();
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 connectDB();
-
 
 app.use("/api/auth", authRoutes);
 app.use("/api/products", productRoutes);
