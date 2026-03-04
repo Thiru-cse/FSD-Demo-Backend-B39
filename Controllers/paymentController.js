@@ -29,8 +29,8 @@ export const createCheckoutSession = async (req, res) => {
       payment_method_types: ["card"],
       line_items,
       mode: "payment",
-      success_url: "http://localhost:5173/success",
-      cancel_url: "http://localhost:5173/cancel",
+      success_url: "https://fsd-demo-frontend-b39-dm4o8ydsr-thirucses-projects.vercel.app/success",
+      cancel_url: "https://fsd-demo-frontend-b39-dm4o8ydsr-thirucses-projects.vercel.app/cancel",
     });
 
     res.json({ url: session.url });
