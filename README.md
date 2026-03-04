@@ -3,7 +3,7 @@
 This is the backend of a full-stack E-Commerce application built using **Node.js**, **Express.js**, and **MongoDB**. It supports **JWT-based Authentication**, **Admin/User Role-based Access**, **Product & Cart Management**, **Order Processing**, and **Stripe Payments**.
 
 ### 🔗 Live Backend URL  
-[https://fsd-backend-demo-b17.onrender.com](https://fsd-backend-demo-b17.onrender.com)
+[fsd-demo-backend-b39.onrender.com/](fsd-demo-backend-b39.onrender.com/)
 
 ---
 
